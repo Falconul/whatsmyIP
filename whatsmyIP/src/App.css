@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 100vh;
+  font-family: "Abril Fatface", serif;
+  font-family: "Questrial", sans-serif;
+  font-family: "Righteous", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.map-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150vh;
+  z-index: -1;
+}
+
+.content-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  z-index: 2;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5) !important;
+  position: absolute;
+  cursor: grab;
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+.list-group {
+  --bs-list-group-bg: rgba(255, 255, 255, 0.2) !important;
+}
+
+.time-container {
+  border: 1px solid gray !important;
+  border-radius: 5px !important;
+  margin: 5px;
+}
+
+
